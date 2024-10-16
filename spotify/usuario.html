@@ -175,7 +175,7 @@
 <body>
 
     <header>
-        <img src="imgs/logo.png" alt="Rhythmify Logo">
+        <img src="Design_sem_nome-removebg-preview.png" alt="Rhythmify Logo">
         <div class="search-bar">
             <span>
                 <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -184,59 +184,40 @@
             </span>
             <input type="text" placeholder="O que você quer ouvir?">
         </div>
-        
+       
     </header>
 
     <div class="container">
-        <div class="content">
-            <aside class="sidebar">
-                <div class="library-header">
-                    <h2>Sua biblioteca</h2>
-                    <div>
-                        <span class="add-button">+</span>
-                        <span class="arrow-button">→</span>
-                    </div>
-                </div>
-
-                <div class="tabs">
-                    <button>Playlists</button>
-                    <button>Artistas</button>
-                    <button>Álbuns</button>
-                </div>
-
-                <div class="library">
-                    <ul>
-                        <li onclick="playPlaylist('Br.Br')">
-                            <img src="imgs/0526a448-9d5e-4a19-b336-b46ff1693baf.jpg" alt="Br.Br">
-                            <span>Br.Br</span>
-                        </li>
-                        <li onclick="playPlaylist('Gym')">
-                            <img src="imgs/download.jpg" alt="Gym">
-                            <span>Gym</span>
-                        </li>
-                        <li onclick="playPlaylist('Musica.Atualizada')">
-                            <img src="imgs/Altinha br.jpg" alt="Musica.Atualizada">
-                            <span>Musica.Atualizada</span>
-                        </li>
-                        <li onclick="playPlaylist('Carnaval-2024')">
-                            <img src="imgs/“𝐦𝐢𝐚 𝐡𝐚𝐧𝐧𝐚𝐡 ♡“.jpg" alt="Carnaval-2024">
-                            <span>Carnaval-2025</span>
-                        </li>
-                        <li onclick="playPlaylist('Verão-Pop')">
-                            <img src="imgs/download (1).jpg" alt="Verão-Pop">
-                            <span>Verão-Pop</span>
-                        </li>
-
-                    </ul>
-                </div>
-            </aside>
+        <div class="sidebar">
+            <h2>
+                <svg fill="#000000" width="28px" height="28px" viewBox="0 0 36 36" version="1.1" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <title>library-line</title>
+                    <path d="M33.48,29.63,26.74,11.82a2,2,0,0,0-2.58-1.16L21,11.85V8.92A1.92,1.92,0,0,0,19.08,7H14V4.92A1.92,1.92,0,0,0,12.08,3H5A2,2,0,0,0,3,5V32a1,1,0,0,0,1,1H20a1,1,0,0,0,1-1V19.27l5,13.21a1,1,0,0,0,1.29.58l5.61-2.14a1,1,0,0,0,.58-1.29ZM12,8.83V31H5V5h7ZM19,31H14V9h5Zm8.51-.25L21.13,13.92l3.74-1.42,6.39,16.83Z" class="clr-i-outline clr-i-outline-path-1"></path>
+                    <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+                </svg>
+                Sua biblioteca
+            </h2>
+            <div class="create-playlist-btn">Crie sua primeira playlist
+                <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                     width="23px" height="23px" viewBox="0 0 895.401 895.4"
+                     xml:space="preserve">
+                <g>
+                    <g>
+                        <path d="M328.177,875.4c0,11,9,20,20,20h295.599c11,0,20-9,20-20V829.6H328.177V875.4z"/>
+                        <path d="M321.477,322.9l0.101-146.3c0-16.9,6.399-32.7,18.1-44.5c13-13,31.6-20.4,51.2-20.4c15.3,0,30,4.7,41.399,13.1
+                            c13.2,10.1,21.3,24.6,21.3,40.5v8.6c0,16.9-6.4,32.7-18.1,44.5C366.094,310.5,348.477,317,328.177,322.9z"/>
+                    </g>
+                </g>
+                </svg>
+            </div>
+        </div>
 
         <div class="main-content">
             <div class="profile-section">
                 <h2 class="section-title">Meu Perfil</h2>
                 <div class="profile-header">
                     <div class="profile-avatar" onclick="openModal()">
-                        <img src="imgs/account.png" alt="Imagem do perfil" class="avatar-image">
+                        <img src="usuario-de-perfil copy.png" alt="Imagem do perfil" class="avatar-image">
                     </div>
                     <h3 id="username">Nome de Usuário</h3>
                 </div>
